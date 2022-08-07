@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar -Dspring.profiles.active=test target/dependency/webapp-runner.jar --port $PORT target/*.war
+web: java -jar target/demo-1.0.0.jar
